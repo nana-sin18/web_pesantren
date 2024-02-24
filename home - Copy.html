@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis…
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Prata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kode+Mono:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Questrial&family=Rozha+One&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kode+Mono:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@300&family=Noto+Naskh+Arabic:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Questrial&family=Rozha+One&display=swap" rel="stylesheet"> 
+</head>
+  <style>
+         .text-white{
+          padding-bottom: 6rem !important;
+          padding-top: 6rem !important;
+          
+         } 
+         .nav_container {
+          display: flex !important;
+          justify-content: space-between !important;
+         }
+         .logo{
+            font-family: "DM Serif Display", serif !important;
+            font-weight: 600 !important;
+            font-style: normal !important;
+            margin-right: 30% !important;
+            color: #FEFBF6 !important;
+           /* margin-left: 80px !important; */
+         }
+         .color_search{
+          background-color: #FAFCFB !important;
+          border: none !important;
+          border-radius: 8px !important;
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          /* margin-top: -10px !important; */
+          padding: 1px 6px;
+  
+         }
+         .color_search:hover{
+          background-color: #FAFCFB;
+         }
+         /* .button{
+          margin-right: 10% !important;
+         } */
+         .bi-three-dots{
+          font-size: 30px;
+           color: #FFF7F1 !important;
+          /* margin-left: 80px !important; */
+         }
+         .titik{
+          border: none !important;
+          background-color: #B7CEDE !important;
+         }
+         .bg-body-tertiary{
+          background-color: #B7CEDE !important;
+         }
+         .inti{
+          background-color: #FAFCFB !important;
+
+         }
+         .intibtn{
+           background-color: #B7CEDE !important;
+           font-family: "Manrope", sans-serif;
+           font-optical-sizing: auto;
+           font-weight: 300;
+           font-style: normal;
+             color: #FFF7F1 !important;
+           
+         }
+         .h_inti{
+          /* font-size: 50px !important;
+          font-weight: bold !important; */
+          /* font-family: 'oatmilk', sans-serif !important; */
+           
+            font-family: "Prata", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #a2c3d1;
+}
+
+         
+         .p_inti{
+          font-size: 20px;
+        
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+         }
+          .ajak{
+          background-color: #B7CEDE !important;
+         }
+         .h_ajak{
+         font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+            color: #FEFBF6 !important;
+
+         }
+         .p_ajak1{
+          font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -10px !important;
+    color: #FEFBF6 !important;
+}
+    .arab_ajak1{
+        font-family: "Noto Naskh Arabic", serif;
+  font-optical-sizing: auto;
+   font-weight: 600;
+  font-style: normal;
+  margin-top: 50px;
+    color: #FFF7F1 !important;
+
+  /* margin-bottom: 40px; */
+    }
+         .terbaik{
+          background-color: #FAFCFB !important;
+         }
+         .gambar_terbaik{
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 100px;
+         }
+         .hterbaik{
+           color: #B7CEDE ;
+           margin-top: 10px !important;
+            
+         font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  
+         }
+        .pterbaik{
+          color: #B7CEDE;
+          margin-top: -10px !important;
+             font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+        
+       
+         .berita{
+          background-color: #FAFCFB !important;
+
+         }
+         .isiberita{
+          font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   color: #000000 !important;
+         }
+         .card{
+             color: #B7CEDE;
+          margin-top: -10px !important;
+             font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+         }
+         .active{
+          color: #B7CEDE!important;
+
+         }
+         .card-footer a{
+          text-decoration: none;
+         }
+         .footerrrr{
+           color: #4C5372 !important;
+           text-decoration: none;
+           
+         }
+         .fther{
+           color: #4C5372 !important;
+            font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+         }
+         .carousel-inner{
+           background-color:#B7CEDE!important;
+         }
+        
+  </style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav_container ">
+  <div class="container  ">
+    <button class="button titik">
+      <a href="animasi.html"></a><span class="bi-three-dots"></a></span>
+    </button>
+    <h1 class="logo">pesantren exprole</h1>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+         <button type="submit " class="color_search">submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- inti -->
+            <div class="container-fluid inti">
+        <div class="container-fluid">
+            <div class="col-12 py-5 text-center">
+                <h1 class="display-1 h_inti">Data pesantren yang ada di indonesia</h1>
+                <p class="lead p_inti">according to the website pesantren explore</p>
+               <a href="data.html"> <button type="button " class="btn intibtn">click here!!!</button></a>
+            </div>
+        </div>
+    </div>
+<!-- ajak -->
+    <main class="container-fluid ajak">
+        <div class="container-fluid" >
+            <div class="col-12 py-4">
+                <h1 class="h_ajak">Ayo mondok!!!</h1>
+                <p class="p_ajak1">Dari Abul Husain Muslim bin al-Hajjaj al-Nisapuri, Rasulullah ﷺ bersabda:</p>
+                <p class="arab_ajak1">مَنْ سَلَكَ طَرِيْقًا يَلْتَمِسُ فِيْهِ عِلْمًا، سَهَّلَ اللهُ لَهُ بِهِ طَرِيْقًا إِلَى الْجَنَّةِ</p>
+                <p class="p_ajak1">"Barang siapa menelusuri jalan untuk mencari ilmu padanya, Allah akan memudahkan baginya jalan menuju surga."</p>
+            </div>
+        </div>
+    </main>
+    <!-- terbaik -->
+          
+            <div class="container-fluid bg-primary terbaik">
+                <h1 class="hterbaik">Top 3 pesantren terbesar</h1>
+                <p class="pterbaik">menurut pesantren explore</p>
+   <div class="card-group">
+  <div class="card ">
+    <img src="https://asset-2.tstatic.net/banten/foto/bank/images/Pondok-Modern-Gontor-ponorogo.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pondok Pesantren Darussalam Gontor Ponorogo </h5>
+      <p class="card-text">  di akui sebagai yang terbaik di indonesia,mengukuhkan posisinya sebagai pesantren terkemuka dengan dedikasi tinggi pada pendidikan dan nilai nilai keagamaan.</p>
+    </div>
+    <div class="card-footer">
+      <a href="https://gontor.ac.id/"><small class="text-muted">click here!</small></a> 
+    </div>
+  </div>
+  <div class="card ">
+    <img src="https://awsimages.detik.net.id/community/media/visual/2023/10/12/pondok-pesantren-sidogiri_169.jpeg?w=600&q=90" class="card-img-top cardmyt" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pondok Pesantren Sidogiri Pasuruan</h5>
+      <p class="card-text"> menjadi yang terbaik kedua karena menonjolkan prestasi akademis dan pelatihan karakter yang luar biasa,menjadikannya pilihan utama dalam pendidikan islam.</p>
+    </div>
+    <div class="card-footer">
+     <a href="https://sidogiri.net/"><small class="text-muted">click here!</small></a> 
+    </div>
+  </div>
+  <div class="card ">
+    <img src="https://ikpmjakarta.com/wp-content/uploads/2020/12/DJI_0018.jpg.." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pondok Pesantren Darunnajah Jakarta</h5>
+      <p class="card-text">sebagai pusat pendidikan terbaik di indonesia,memimpin dengan metode pembelajaran inovatif yang menghasilkan generasi penerus yang cakap dan berakhlak.</p>
+    </div>
+    <div class="card-footer">
+       <a href="https://darunnajah.com/"><small class="text-muted">click here!</small></a> 
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- berita -->
+      <div class="container-fluid berita ">
+        <div class="container-fluid">
+            <div class="col-12 py-5 text-center">
+              <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators btn_berita">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <a href="https://pecihitam.org/luar-biasa-ini-9-santri-yang-sukses-di-indonesia-dan-luar-negeri/"><img src="https://pecihitam.org/wp-content/uploads/2017/12/santri-1.png" class="d-block w-100" alt=""></a>
+      <div class="carousel-caption d-none d-md-block">
+        <div class="isiberita">
+        <h5>Luar Biasa, Ini 9 Santri Yang Sukses di Indonesia dan Luar Negeri</h5>
+        <p> Sejarah mencatat beberapa ulama Indonesia pada masa lalu pernah berkiprah hingga namanya dikenal dunia. Mereka pada umumnya berguru ke Mekah dan Madinah.......</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+     <a href="https://tekno.tempo.co/read/1608122/cerita-putra-santri-yang-diterima-di-11-kampus-luar-negeri"> <img src="https://statik.tempo.co/data/2022/07/03/id_1122273/1122273_720.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block"></a>
+       <div class="isiberita">
+        <h5>Cerita Putra, Santri yang Diterima di 11 Kampus Luar Negeri</h5>
+        <p> Pesantren Amanatul Ummah Pacet, Kabupaten Mojokerto, Jawa Timur berhasil diterima di 11 kampus luar negeri. Siswa yang lulus dari madrasah bertaraf internasional pada tahun pelajaran 2021/2022 ini mengaku sangat ingin belajar di luar negeri........</p>
+        </div>
+      </div>
+    </div>
+    
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+  <ul class="nav nav-underline nav justify-content-center ">
+  <li class="nav-item ">
+    <a class="nav-link active footerrrr" aria-current="page" href="#">home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link footerrrr" href="#">location</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link footerrrr" href="#">berita</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link footerrrr" href="about.html">a bout us</a>
+  </li>
+  
+<!-- footer -->
+  <footer class="container-fluid fther" >
+        <div class="container-fluid">
+            <div class="col-12 py-4">
+                &copy; website by shakira,marsina,nayya xi rpl 1
+            </div>
+        </div>
+    </footer>
+    <script>
+      
+    </script>
+</body>
+</html>
